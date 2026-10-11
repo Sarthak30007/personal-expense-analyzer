@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Run full pipeline", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/run_pipeline.py", "console": "integratedTerminal" },
+    { "name": "1. Generate data", "type": "debugpy", "request": "launch",
+      "module": "src.generate_data", "console": "integratedTerminal" },
+    { "name": "2. Preprocess", "type": "debugpy", "request": "launch",
+      "module": "src.preprocess", "console": "integratedTerminal" },
+    { "name": "3. EDA", "type": "debugpy", "request": "launch",
+      "module": "src.eda", "console": "integratedTerminal" },
+    { "name": "4. Train categorizer", "type": "debugpy", "request": "launch",
+      "module": "src.train_categorizer", "console": "integratedTerminal" },
+    { "name": "5. Forecast", "type": "debugpy", "request": "launch",
+      "module": "src.forecast", "console": "integratedTerminal" }
+  ]
+}

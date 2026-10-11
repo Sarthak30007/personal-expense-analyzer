@@ -1,0 +1,40 @@
+{
+  "baseline_majority": {
+    "accuracy": 0.4502,
+    "macro_f1": 0.069
+  },
+  "baseline_keyword_rules": {
+    "accuracy": 0.7942,
+    "macro_f1": 0.7506
+  },
+  "logreg": {
+    "accuracy": 0.955,
+    "macro_f1": 0.9488
+  },
+  "linear_svc": {
+    "accuracy": 0.9518,
+    "macro_f1": 0.9459
+  },
+  "complement_nb": {
+    "accuracy": 0.9518,
+    "macro_f1": 0.9465
+  },
+  "logreg_tuned": {
+    "accuracy": 0.9518,
+    "macro_f1": 0.9419
+  },
+  "confidence_threshold": {
+    "threshold": 0.6,
+    "coverage": 0.881,
+    "accuracy_on_confident": 1.0
+  },
+  "hidden_truth_on_unlabelled": {
+    "accuracy": 0.9469,
+    "macro_f1": 0.9289
+  },
+  "best_params": {
+    "clf__C": "1",
+    "prep__char__ngram_range": "(2, 4)",
+    "prep__word__ngram_range": "(1, 2)"
+  }
+}

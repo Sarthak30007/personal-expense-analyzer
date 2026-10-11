@@ -1,0 +1,33 @@
+{
+  "baseline_last_month": {
+    "MAE": 5218.88,
+    "RMSE": 5504.58,
+    "MAPE_%": 17.27
+  },
+  "baseline_moving_avg_3": {
+    "MAE": 5121.08,
+    "RMSE": 6013.68,
+    "MAPE_%": 16.53
+  },
+  "ridge": {
+    "MAE": 4460.81,
+    "RMSE": 5956.38,
+    "MAPE_%": 13.66,
+    "CV_MAE": 4439.73
+  },
+  "random_forest": {
+    "MAE": 4087.5,
+    "RMSE": 5209.01,
+    "MAPE_%": 13.22,
+    "CV_MAE": 3848.26
+  },
+  "gradient_boosting": {
+    "MAE": 4436.16,
+    "RMSE": 5604.04,
+    "MAPE_%": 14.02,
+    "CV_MAE": 3526.9
+  },
+  "best_model": "gradient_boosting",
+  "next_month": "2026-10",
+  "next_month_forecast": 28253.19
+}
